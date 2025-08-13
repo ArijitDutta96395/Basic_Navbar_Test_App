@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+/* Header styles */
+.main-header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+.main-header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation styles */
+.main-nav {
+    background: #444;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.main-nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover, .main-nav a.active {
+    background-color: #0779e4;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 2rem 0;
+}
+
+.main-content h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-content p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Footer styles */
+.main-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
